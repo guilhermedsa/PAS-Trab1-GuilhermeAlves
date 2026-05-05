@@ -20,4 +20,4 @@ public class Jogo {
     
     @Enumerated(EnumType.STRING)
     private SituacaoJogo situacao = SituacaoJogo.DISPONIVEL; // Todo jogo inicia como disponível
-}
+};

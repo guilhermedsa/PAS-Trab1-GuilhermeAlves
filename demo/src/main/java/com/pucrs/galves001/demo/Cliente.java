@@ -16,4 +16,4 @@ public class Cliente {
     private Date nascimento;
     private String username;
     private String password;
-}
+};

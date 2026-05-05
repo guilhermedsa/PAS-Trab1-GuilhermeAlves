@@ -12,4 +12,4 @@ public class Categoria {
     private int num;
     private String nome;
     private double valorMinimo;
-}
+};
