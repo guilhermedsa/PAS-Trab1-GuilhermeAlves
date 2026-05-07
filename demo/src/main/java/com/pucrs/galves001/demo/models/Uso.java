@@ -1,4 +1,4 @@
-package com.pucrs.galves001.demo;
+package com.pucrs.galves001.demo.models;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.util.Date;
@@ -22,4 +22,4 @@ public class Uso {
     @ManyToOne
     @JoinColumn(name = "contrato_id")
     private Contrato contrato;
-};
+}

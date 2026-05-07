@@ -1,12 +1,12 @@
-package com.pucrs.galves001.demo;
+package com.pucrs.galves001.demo.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import java.util.Date;
 import java.util.List;
 
-
-
+@Data
+@Entity
 public class Jogo {
     @Id
     private int codigo;
@@ -19,5 +19,5 @@ public class Jogo {
     private Categoria categoria;
     
     @Enumerated(EnumType.STRING)
-    private SituacaoJogo situacao = SituacaoJogo.DISPONIVEL; // Todo jogo inicia como disponível
-};
+    private SituacaoJogo situacao = SituacaoJogo.DISPONIVEL; 
+}

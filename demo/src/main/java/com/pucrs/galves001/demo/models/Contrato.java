@@ -1,4 +1,4 @@
-package com.pucrs.galves001.demo;
+package com.pucrs.galves001.demo.models;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.util.Date;
@@ -27,4 +27,4 @@ public class Contrato {
     
     @OneToMany(mappedBy = "contrato", cascade = CascadeType.ALL)
     private List<Uso> usos;
-};
+}

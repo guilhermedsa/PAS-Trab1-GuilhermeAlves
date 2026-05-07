@@ -1,4 +1,4 @@
-package com.pucrs.galves001.demo;
+package com.pucrs.galves001.demo.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -16,4 +16,4 @@ public class Cliente {
     private Date nascimento;
     private String username;
     private String password;
-};
+}
