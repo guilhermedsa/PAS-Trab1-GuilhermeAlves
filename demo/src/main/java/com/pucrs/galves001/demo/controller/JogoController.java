@@ -11,7 +11,7 @@ import com.pucrs.galves001.demo.services.*;
 
 
 @RestController
-@RequestMapping("/ACME")
+@RequestMapping("/acmespiele")
 public class JogoController {
 
     @Autowired private ClienteRepository clienteRepo;
